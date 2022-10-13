@@ -5,7 +5,6 @@ public class Water {
   private boolean isTasting;
   private boolean isPure;
   private float temperature;
-  private float volume;
   private float ph;
   private float viscosity;
   private float conductivity;
@@ -57,10 +56,6 @@ public class Water {
 
   public float getTemperature() {
     return temperature;
-  }
-
-  public float getVolume() {
-    return volume;
   }
 
   public float getPh() {
