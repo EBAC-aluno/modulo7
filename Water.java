@@ -9,10 +9,10 @@ public class Water {
   private float viscosity;
   private float conductivity;
   private String matterState;
-
+  
+  // "I'm the water. I can save, but I can kill too. Also, I can hydratates, wet, clean, extinguish fire and flow."
   public Water() {
-    System.out.println(
-        "I'm the water. I can save, but I can kill too. Also, I can hydratates, wet, clean, extinguish fire and flow.");
+
   }
 
   public void flow(){
